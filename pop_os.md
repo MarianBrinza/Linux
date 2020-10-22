@@ -30,4 +30,13 @@ sudo apt-get update && sudo apt-get upgrade -y
 sudo apt install gnome-tweaks
 ```
 
+## Extensions
+
+1. go to: https://extensions.gnome.org/
+2. install `GNOME Shell extensions` - look top page for message to install
+3. search and install: `dash to dock`
+4. search and install: `dash to panel`
+5. search and install: `arc menu by andrew.zaech`
+  - **dependencies: `sudo apt install gnome-shell-extensions gnome-menus gir1.2-gmenu-3.0 -y`**
+
 /usr/share/backgrounds/pop/
