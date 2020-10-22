@@ -24,3 +24,10 @@ link to fix:
 ``` bash
 sudo apt-get update && sudo apt-get upgrade -y
 ```
+
+### Install gnome tweak tool
+``` bash
+sudo apt install gnome-tweaks
+```
+
+/usr/share/backgrounds/pop/
