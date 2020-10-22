@@ -16,4 +16,11 @@ to:
 options nvidia-drm modeset=0 
 ```
 
-link to fix: https://www.reddit.com/r/pop_os/comments/ch8v7g/pop_os_official_nvidia_43034_problems_thread/
+link to fix:
+  1. https://www.reddit.com/r/pop_os/comments/ch8v7g/pop_os_official_nvidia_43034_problems_thread/
+  2. https://github.com/pop-os/nvidia-graphics-drivers/issues/10
+  
+### Update && upgrade
+``` bash
+sudo apt-get update && sudo apt-get upgrade -y
+```
