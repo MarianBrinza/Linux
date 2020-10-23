@@ -27,7 +27,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 
 ### Install gnome tweak tool
 ``` bash
-sudo apt install gnome-tweaks
+sudo apt install gnome-tweaks -y
 ```
 
 ## Extensions
