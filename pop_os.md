@@ -74,3 +74,8 @@ host file is in:  $ /etc/hosts
 open hosts file:  $ sudo nano /etc/hosts
 make sure you have the correct host name there, if no just add it
 ```
+
+### Uninstall default apps
+```
+sudo apt remove gnome-contacts gnome-weather geary -y
+```
