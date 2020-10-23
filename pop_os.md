@@ -30,6 +30,11 @@ sudo apt-get update && sudo apt-get upgrade -y
 sudo apt install gnome-tweaks -y
 ```
 
+### Install codecs
+```
+sudo apt-get install ubuntu-restricted-extras
+```
+
 ## Extensions
 
 1. go to: https://extensions.gnome.org/
