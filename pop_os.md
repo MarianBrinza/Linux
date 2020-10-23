@@ -57,7 +57,7 @@ wallpapers: https://www.wallpaperflare.com/
 - use extension `Workspace Isolated Dash by n-yuki`
 - link to fix: https://askubuntu.com/questions/464946/force-alt-tab-to-switch-only-on-current-workspace-in-gnome-shell
 
-### Alt + Tab only apps from current workspace
+### Alt + Tab show only apps from current workspace
 ```
 > Settings > Keyboard> Keyboard Shortcuts > Customize Shortcuts >
 > Search for **switch application** - disable it (remove shortcuts)
