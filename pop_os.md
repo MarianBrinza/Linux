@@ -55,6 +55,7 @@ wallpapers: https://www.wallpaperflare.com/
 - ubuntu: `gsettings set org.gnome.shell.extensions.dash-to-dock isolate-workspaces true`
 - dash to panel: `settings > Behavior > Isolate workspaces > ON`
 - use extension `Workspace Isolated Dash by n-yuki`
+- link to fix: https://askubuntu.com/questions/464946/force-alt-tab-to-switch-only-on-current-workspace-in-gnome-shell
 
 ### Alt + Tab only apps from current workspace
 ```
@@ -63,5 +64,5 @@ wallpapers: https://www.wallpaperflare.com/
 > Search for  **switch windows** add custom shortcut: alt+tab
 > Done
 ```
-credit to: The_Helios @reddit > link to solution: https://www.reddit.com/r/pop_os/comments/guppug/frustrations_alttab_behavior_isolating_workspaces/
+credit to: The_Helios @reddit > link to fix: https://www.reddit.com/r/pop_os/comments/guppug/frustrations_alttab_behavior_isolating_workspaces/
 
