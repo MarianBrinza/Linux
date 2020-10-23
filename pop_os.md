@@ -46,4 +46,6 @@ sudo apt-get install ubuntu-restricted-extras
     - link to homepage, scroll down for info & dependencies: https://gitlab.com/arcmenu-team/Arc-Menu
     - link to dependencies: https://gitlab.com/arcmenu-team/Arc-Menu/-/wikis/Arc-Menu-Dependencies
 
-/usr/share/backgrounds/pop/
+default backgrounds location: /usr/share/backgrounds/pop/
+
+wallpapers: https://www.wallpaperflare.com/
