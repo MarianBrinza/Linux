@@ -66,3 +66,11 @@ wallpapers: https://www.wallpaperflare.com/
 ```
 credit to: The_Helios @reddit > link to fix: https://www.reddit.com/r/pop_os/comments/guppug/frustrations_alttab_behavior_isolating_workspaces/
 
+### Slow terminal on sudo commands
+- check if `hostname` is in `hosts` file
+```
+print host name:  $ hostname 
+host file is in:  $ /etc/hosts
+open hosts file:  $ sudo nano /etc/hosts
+make sure you have the correct host name there, if no just add it
+```
