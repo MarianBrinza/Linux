@@ -79,3 +79,5 @@ make sure you have the correct host name there, if no just add it
 ```
 sudo apt remove gnome-contacts gnome-weather geary -y
 ```
+
+TSR #32 https://www.youtube.com/watch?v=3cjHQZwOYqQ
