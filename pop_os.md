@@ -63,3 +63,5 @@ wallpapers: https://www.wallpaperflare.com/
 > Search for  **switch windows** add custom shortcut: alt+tab
 > Done
 ```
+credit to: The_Helios @reddit > link to solution: https://www.reddit.com/r/pop_os/comments/guppug/frustrations_alttab_behavior_isolating_workspaces/
+
