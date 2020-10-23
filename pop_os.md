@@ -49,3 +49,17 @@ sudo apt-get install ubuntu-restricted-extras
 default backgrounds location: /usr/share/backgrounds/pop/
 
 wallpapers: https://www.wallpaperflare.com/
+
+### Isolate workspaces - show only apps from current workspace on taskbar
+` isolate-workspaces true`
+- ubuntu: `gsettings set org.gnome.shell.extensions.dash-to-dock isolate-workspaces true`
+- dash to panel: `settings > Behavior > Isolate workspaces > ON`
+- use extension `Workspace Isolated Dash by n-yuki`
+
+### Alt + Tab only apps from current workspace
+```
+> Settings > Keyboard> Keyboard Shortcuts > Customize Shortcuts >
+> Search for **switch application** - disable it (remove shortcuts)
+> Search for  **switch windows** add custom shortcut: alt+tab
+> Done
+```
