@@ -1,7 +1,6 @@
-### How Do I install .deb Packages on an Ubuntu Linux?
+### Install .deb Packages on an Ubuntu Linux?
 
 ```
-as root:
 sudo dpkg -i packageName.deb
 ```
 
