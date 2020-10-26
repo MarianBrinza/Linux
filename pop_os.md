@@ -47,6 +47,11 @@ sudo apt install flatpak -y
 flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 
+### Add snap support
+```
+sudo apt install snapd
+```
+
 ### Installing
 
 - **gnome tweak tool:**
