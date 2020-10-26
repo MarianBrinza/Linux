@@ -25,15 +25,23 @@ link to fix:
 sudo apt-get update && sudo apt-get upgrade -y
 ```
 
-### Install gnome tweak tool
+### Installing
+
+- **gnome tweak tool:**
 ``` bash
 sudo apt install gnome-tweaks -y
 ```
 
-### Install codecs
+- **codecs:**
 ```
 sudo apt-get install ubuntu-restricted-extras
 ```
+
+- **install Dolphin:**
+```
+sudo apt-get install -y dolphin
+```
+
 
 ## Extensions
 
@@ -81,3 +89,7 @@ sudo apt remove gnome-contacts gnome-weather geary -y
 ```
 
 TSR #32 https://www.youtube.com/watch?v=3cjHQZwOYqQ
+link to document: https://docs.google.com/document/d/1oZ8g-ceSo2BkwQ90xK-30Ej1wEQSKUprqiO7gXIKbDA/edit
+
+
+
