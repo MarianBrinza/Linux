@@ -205,6 +205,14 @@ sudo apt install fileName.deb
 ```
 
 ### WebStorm
+- install
+```
+sudo snap install webstorm --classic
+```
+- uninstall
+```
+sudo snap remove webstorm
+```
 ### Notepadqq
 ```
 sudo add-apt-repository ppa:notepadqq-team/notepadqq
@@ -228,6 +236,10 @@ apt-get install git
 ### NVM
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash
+```
+- check instalation, should print: `nvm`
+```
+command -v nvm
 ```
 - homepage: https://github.com/nvm-sh/nvm#installing-and-updating
 - install Node LTS:
