@@ -58,6 +58,7 @@ sudo apt-get install eog
   ```
   ./filename.run
   ```
+  - the program will be installed under: `/home/yourUsername/opt/foxitsoftware/foxitreader`
 
 
 
