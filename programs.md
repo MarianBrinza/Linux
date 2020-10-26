@@ -222,4 +222,11 @@ snap install --classic notepadqq
 - download & documentation: https://notepadqq.com/wp/download/
 
 ### Git
+```
+apt-get install git
+```
 ### NVM
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash
+```
+- homepage: https://github.com/nvm-sh/nvm#installing-and-updating
