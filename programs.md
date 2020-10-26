@@ -30,7 +30,7 @@ sudo apt install ttf-mscorefonts-installer
 sudo apt install ffmpeg -y
 sudo apt-get install ubuntu-restricted-extras -y
 ```
-### Browesers
+### Browsers
 
 **Brave**
 - instructions here: https://brave.com/linux/
