@@ -9,7 +9,7 @@
 ```
 flatpak install flathub io.github.celluloid_player.Celluloid
 ```
-  - **totem (gnome videos):
+  - **totem (gnome videos):**
 ```
 sudo apt-get install totem libtotem0
 ```
