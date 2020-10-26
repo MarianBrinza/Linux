@@ -15,7 +15,7 @@ sudo apt install vlc -y
 flatpak install flathub io.github.celluloid_player.Celluloid -y
 ```
 
-- **totem (gnome videos, has playback speed):** 
+- **totem (gnome videos, good and has playback speed):** 
 ```
 sudo apt-get install totem libtotem0 -y
 ```
