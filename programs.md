@@ -124,6 +124,7 @@ sudo apt-get remove bcompare
 - install instructions: https://www.scootersoftware.com/download.php?zz=kb_linux_install
 
 ### OBS
+- install notes: https://obsproject.com/wiki/install-instructions#linux
 ```
 sudo add-apt-repository ppa:obsproject/obs-studio
 sudo apt update
