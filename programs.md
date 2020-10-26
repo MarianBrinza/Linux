@@ -40,3 +40,7 @@ sudo apt-get install gzip zip unzip -y
 sudo apt-get install eog
 ```
 
+### PDF
+- **foxit reader:**
+
+
