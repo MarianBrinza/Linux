@@ -4,15 +4,17 @@
 sudo apt-get install ubuntu-restricted-extras
 ```
 
-### video players:
+### Video players:
 - **vlc:**
 ```
 sudo apt install vlc -y
 ```
+
 - **celuloid (good and has playback speed):**
 ```
 flatpak install flathub io.github.celluloid_player.Celluloid -y
 ```
+
 - **totem (gnome videos, has playback speed):** 
 ```
 sudo apt-get install totem libtotem0 -y
