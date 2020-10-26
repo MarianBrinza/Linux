@@ -42,16 +42,18 @@ sudo apt-get install eog
 
 ### PDF
 - **foxit reader:**
-  1. download
+  - download
   ```
   wget http://cdn01.foxitsoftware.com/pub/foxit/reader/desktop/linux/2.x/2.4/en_us/FoxitReader2.4.1.0609_Server_x64_enu_Setup.run.tar.gz
   ```
   or download it from: https://www.foxitsoftware.com/pdf-reader/
-  2. extract the file
+  
+  - extract the file
   ```
   tar -xvf FoxitReader*.tar.gz (the downloaded file name)
   ```
-  3. install:
+  
+  - install:
     - double click the extracted file or 
   ```
   ./filename.run
