@@ -77,6 +77,7 @@ wget https://www.scootersoftware.com/bcompare-4.3.7.25118_amd64.deb
 sudo apt-get install gdebi-core
 sudo gdebi bcompare-4.3.7.25118_amd64.deb
 ```
+  - or with a GUI app like Eddy by double clicking it
 - uninstall:
 ```
 sudo apt-get remove bcompare
