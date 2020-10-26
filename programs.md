@@ -1,7 +1,7 @@
 ### Programs:
 
 - **video players:**
-  - vlc:
+  - **vlc:**
   ```
   sudo apt install vlc -y
   ```
