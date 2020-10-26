@@ -127,6 +127,11 @@ sudo apt-get install eog
   ./filename.run
   ```
   - the program will be installed under: `/home/yourUsername/opt/foxitsoftware/foxitreader`
+  - uninstall:
+  ```
+  cd /home/yourUsername/opt/foxitsoftware/foxitreader
+  sudo ./maintenancetool.sh
+  ```
 
 ### Beyond Compare
 
