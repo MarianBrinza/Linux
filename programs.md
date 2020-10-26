@@ -1,11 +1,11 @@
 ### Programs:
 
 - **video players:**
-  - [x] vlc:
+  - vlc:
   ```
   sudo apt install vlc -y
   ```
-- [ ] **celuloid:**
+  - **celuloid:**
 ```
 flatpak install flathub io.github.celluloid_player.Celluloid
 ```
