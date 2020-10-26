@@ -230,3 +230,27 @@ apt-get install git
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash
 ```
 - homepage: https://github.com/nvm-sh/nvm#installing-and-updating
+- install Node LTS:
+```
+nvm install --lts
+```
+- use LTS
+```
+nvm use --lts
+```
+- list installed node versions
+```
+nvm ls
+```
+- install version
+``` 
+nvm install 12.3.4
+```
+- use version
+```
+nvm use 12.3.4
+```
+- list curent node version
+```
+nvm current
+```
