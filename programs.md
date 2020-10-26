@@ -1,3 +1,8 @@
+### codecs
+```
+sudo apt install ffmpeg -y
+sudo apt-get install ubuntu-restricted-extras -y
+```
 ### Browesers
 
 **Brave**
@@ -14,6 +19,21 @@ echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable ma
 sudo apt update
 
 sudo apt install brave-browser -y
+```
+
+**Chromium**
+```
+sudo apt install chromium-browser -y
+```
+
+**Firefox**
+ ```
+ sudo apt install firefox -y
+ ```
+
+### Torrents - qbittorrent
+```
+sudo apt install qbittorrent -y
 ```
 
 
@@ -102,3 +122,10 @@ sudo gdebi bcompare-4.3.7.25118_amd64.deb
 sudo apt-get remove bcompare
 ```
 - install instructions: https://www.scootersoftware.com/download.php?zz=kb_linux_install
+
+### OBS
+```
+sudo add-apt-repository ppa:obsproject/obs-studio
+sudo apt update
+sudo apt install obs-studio -y
+```
