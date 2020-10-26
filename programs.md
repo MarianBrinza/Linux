@@ -219,7 +219,7 @@ sudo apt-get remove --autoremove notepadqq-gtk
 ```
 snap install --classic notepadqq
 ```
-
+- download & documentation: https://notepadqq.com/wp/download/
 
 ### Git
 ### NVM
