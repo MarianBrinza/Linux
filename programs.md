@@ -18,6 +18,11 @@ sudo apt install snapd
 ```
 sudo snap install snap-store
 ```
+### Install Software and Updates app (like Ubuntu has)
+- launch/search: software and updates
+```
+sudo apt install software-properties-gtk -y
+```
 
 ### Install microsoft fonts
 ```
