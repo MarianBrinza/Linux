@@ -211,9 +211,15 @@ sudo add-apt-repository ppa:notepadqq-team/notepadqq
 sudo apt-get update
 sudo apt-get install notepadqq
 ```
+- unintal:
+```
+sudo apt-get remove --autoremove notepadqq-gtk
+```
+- snap:
 ```
 snap install --classic notepadqq
 ```
+
 
 ### Git
 ### NVM
