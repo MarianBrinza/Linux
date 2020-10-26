@@ -1,6 +1,10 @@
-### Programs:
 
-#### video players:
+### Codecs:
+```
+sudo apt-get install ubuntu-restricted-extras
+```
+
+### video players:
 - **vlc:**
 ```
 sudo apt install vlc -y
