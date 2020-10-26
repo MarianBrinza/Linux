@@ -108,6 +108,21 @@ sudo apt-get install gzip zip unzip -y
 sudo apt-get install eog
 ```
 
+### ScreenShot
+- add repo:
+```
+sudo add-apt-repository -y ppa:linuxuprising/shutter
+```
+- install:
+```
+sudo apt install shutter -y
+```
+- remove:
+```
+sudo apt remove shutter
+sudo add-apt-repository --remove ppa:linuxuprising/shutter
+```
+
 ### PDF
 - **foxit reader:**
   - download
