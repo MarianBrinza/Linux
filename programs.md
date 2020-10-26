@@ -1,3 +1,5 @@
+### debian package installer - gui
+- Eddy - link: `https://github.com/donadigo/eddy`
 
 ### Codecs:
 ```
@@ -60,6 +62,23 @@ sudo apt-get install eog
   ```
   - the program will be installed under: `/home/yourUsername/opt/foxitsoftware/foxitreader`
 
+### Beyond Compare
 
-
-
+- enable 32-bit architecture support
+```
+sudo dpkg --add-architecture i386
+```
+- download it from https://www.scootersoftware.com/download.php or with `wget`
+```
+wget https://www.scootersoftware.com/bcompare-4.3.7.25118_amd64.deb
+```
+- install:
+```
+sudo apt-get install gdebi-core
+sudo gdebi bcompare-4.3.7.25118_amd64.deb
+```
+- uninstall:
+```
+sudo apt-get remove bcompare
+```
+- install instructions: https://www.scootersoftware.com/download.php?zz=kb_linux_install
