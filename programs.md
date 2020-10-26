@@ -3,5 +3,5 @@
 - **video players:**
   - [x] vlc:
   ```
-  sudo apt install vlc
+  sudo apt install vlc -y
   ```
