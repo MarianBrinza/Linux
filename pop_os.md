@@ -25,6 +25,23 @@ link to fix:
 sudo apt-get update && sudo apt-get upgrade -y
 ```
 
+### Install microsoft fonts
+```
+sudo add-apt-repository multiverse
+sudo apt install ttf-mscorefonts-installer
+```
+
+### Add flatpak support
+- **install:**
+```
+sudo apt install flatpak -y
+```
+
+- ** add repo:**
+```
+flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+```
+
 ### Installing
 
 - **gnome tweak tool:**
