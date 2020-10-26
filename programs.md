@@ -1,3 +1,30 @@
+### Add flatpak support
+- **install:**
+```
+sudo apt install flatpak -y
+```
+
+- **add repo:**
+```
+flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+```
+
+### Add snap support
+```
+sudo apt install snapd
+```
+
+### Add snap store - optional
+```
+sudo snap install snap-store
+```
+
+### Install microsoft fonts
+```
+sudo add-apt-repository multiverse
+sudo apt install ttf-mscorefonts-installer
+```
+
 ### codecs
 ```
 sudo apt install ffmpeg -y
@@ -160,7 +187,28 @@ sudo apt-get install sublime-text
 - instructions here: https://www.sublimetext.com/docs/3/linux_repositories.html#apt
 
 ### VSCode
+- using snap:
+```
+sudo snap install --classic code
+sudo snap remove code
+```
+- using .deb
+- download it from https://code.visualstudio.com/docs/?dv=linux64_deb
+- install:
+```
+sudo apt install fileName.deb
+```
+
 ### WebStorm
 ### Notepadqq
+```
+sudo add-apt-repository ppa:notepadqq-team/notepadqq
+sudo apt-get update
+sudo apt-get install notepadqq
+```
+```
+snap install --classic notepadqq
+```
+
 ### Git
 ### NVM
