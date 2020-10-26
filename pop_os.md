@@ -25,6 +25,11 @@ link to fix:
 sudo apt-get update && sudo apt-get upgrade -y
 ```
 
+### install synaptic package manager
+```
+sudo apt-get install synaptic
+```
+
 ### Install microsoft fonts
 ```
 sudo add-apt-repository multiverse
@@ -37,7 +42,7 @@ sudo apt install ttf-mscorefonts-installer
 sudo apt install flatpak -y
 ```
 
-- ** add repo:**
+- **add repo:**
 ```
 flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
