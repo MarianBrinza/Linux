@@ -30,7 +30,13 @@ sudo apt install mpv
 ```
 
 ### Archive
-- **gzip, zip, unzip:**
+- **gzip, zip, unzip, default in ubuntu based distros:**
 ```
 sudo apt-get install gzip zip unzip -y
 ```
+### Image viewer
+- **eye of gnome (gnome image viewer), default in ubuntu based distros:**
+```
+sudo apt-get install eog
+```
+
