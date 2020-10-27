@@ -128,6 +128,11 @@ sudo apt remove shutter
 sudo add-apt-repository --remove ppa:linuxuprising/shutter
 ```
 
+- **flameshot**
+```
+apt install flameshot
+```
+
 ### PDF
 - **foxit reader:**
   - download
