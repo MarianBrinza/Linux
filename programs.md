@@ -30,6 +30,11 @@ sudo add-apt-repository multiverse
 sudo apt install ttf-mscorefonts-installer
 ```
 
+### Install synaptic package manager
+```
+sudo apt-get install synaptic
+```
+
 ### codecs
 ```
 sudo apt install ffmpeg -y
