@@ -32,7 +32,7 @@ sudo apt install ttf-mscorefonts-installer
 
 ### Install synaptic package manager
 ```
-sudo apt-get install synaptic
+sudo apt-get install synaptic -y
 ```
 
 ### codecs
