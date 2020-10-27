@@ -308,3 +308,11 @@ nvm use 12.3.4
 ```
 nvm current
 ```
+
+### XKill shortcut - terminate process
+```
+open setting > keyboard > keyboard shortcuts > customize shurtcuts > add new:
+name: whatever name you want
+comand: xkill
+shortcut: whatever key combination you want
+```
