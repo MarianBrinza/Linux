@@ -30,12 +30,6 @@ sudo apt-get update && sudo apt-get upgrade -y
 sudo apt-get install synaptic
 ```
 
-### Install microsoft fonts
-```
-sudo add-apt-repository multiverse
-sudo apt install ttf-mscorefonts-installer
-```
-
 ### Add flatpak support
 - **install:**
 ```
