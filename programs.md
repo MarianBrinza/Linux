@@ -322,10 +322,31 @@ nvm use 12.3.4
 nvm current
 ```
 
-### install zsh
-``` bash
+## Install and set up zsh as default
+```
 sudo apt install zsh -y
 ```
+### Verify installation:
+```
+zsh --version
+```
+Expected result: zsh 5.4.2 or more recent.
+
+### Make it your default shell 
+```
+chsh -s $(which zsh)
+```
+Log out and login back again to use your new default shell.
+### Test that it worked with 
+```
+echo $SHELL
+```
+Expected result: /bin/zsh or similar.
+### Test with:
+```
+$SHELL --version
+```
+Expected result: 'zsh 5.4.2' or similar
 
 ### uninstall zsh
 ``` bash
