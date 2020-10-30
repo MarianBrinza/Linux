@@ -323,6 +323,8 @@ nvm current
 ```
 
 ## Install and set up zsh as default
+- instructions from here: https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
+
 ```
 sudo apt install zsh -y
 ```
@@ -357,15 +359,19 @@ Expected result: 'zsh 5.4.2' or similar
   sudo apt-get --purge remove zsh -y
 ```
 
-
 ### change default shell to zsh
 ``` bash
   chsh -s /usr/bin/zsh
 ```
 
 ### install oh-my-zsh:
+  - instructions here: https://github.com/ohmyzsh/ohmyzsh#basic-installation
   - requires: `curl/wget && git && zsh`
   - [repo here](https://github.com/ohmyzsh/ohmyzsh)
+  - reaload zsh:
+  ```
+   source ~/.zshrc
+   ```
   - use theme `intheloop`
   - copy it from here to `~ .oh-my-zsh/custom/themes`
 ``` bash
@@ -377,8 +383,16 @@ Expected result: 'zsh 5.4.2' or similar
 ``` bash
   uninstall_oh_my_zsh
 ```
-
-- install wget curl build-essential fonts-powerline
+### zsh config
+```
+ENABLE_CORRECTION="true"
+```
+- plugins:
+  - autosuggest: https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh
+  - nice YT video guide: https://www.youtube.com/watch?v=4KBuPCeF9Gc
+  
+  
+### install wget curl build-essential fonts-powerline
 ``` bash
 sudo apt-get install wget curl build-essential libssl-dev fonts-powerline -y
 ```
