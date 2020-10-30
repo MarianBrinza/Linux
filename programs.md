@@ -337,11 +337,15 @@ Expected result: zsh 5.4.2 or more recent.
 chsh -s $(which zsh)
 ```
 Log out and login back again to use your new default shell.
+
+### default option
+after restart a menu will apear asking you to chose some configs, choose menu **2**
+
 ### Test that it worked with 
 ```
 echo $SHELL
 ```
-Expected result: /bin/zsh or similar.
+Expected result: `/bin/zsh` or similar.
 ### Test with:
 ```
 $SHELL --version
