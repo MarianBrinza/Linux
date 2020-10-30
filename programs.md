@@ -324,7 +324,7 @@ nvm current
 
 ### install zsh
 ``` bash
-sudo apt install zsh
+sudo apt install zsh -y
 ```
 
 ### uninstall zsh
