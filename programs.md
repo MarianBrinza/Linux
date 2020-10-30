@@ -353,6 +353,11 @@ sudo apt install zsh
   uninstall_oh_my_zsh
 ```
 
+- install wget curl build-essential fonts-powerline
+``` bash
+sudo apt-get install wget curl build-essential libssl-dev fonts-powerline -y
+```
+
 ### XKill shortcut - terminate process
 ```
 open setting > keyboard > keyboard shortcuts > customize shurtcuts > add new:
