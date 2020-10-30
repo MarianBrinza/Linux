@@ -322,6 +322,37 @@ nvm use 12.3.4
 nvm current
 ```
 
+### install zsh
+``` bash
+sudo apt install zsh
+```
+
+### uninstall zsh
+``` bash
+  sudo apt-get --purge remove zsh -y
+```
+
+
+### change default shell to zsh
+``` bash
+  chsh -s /usr/bin/zsh
+```
+
+### install oh-my-zsh:
+  - requires: `curl/wget && git && zsh`
+  - [repo here](https://github.com/ohmyzsh/ohmyzsh)
+  - use theme `intheloop`
+  - copy it from here to `~ .oh-my-zsh/custom/themes`
+``` bash
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+```
+
+### uninstall oh-my-zsh
+``` bash
+  uninstall_oh_my_zsh
+```
+
 ### XKill shortcut - terminate process
 ```
 open setting > keyboard > keyboard shortcuts > customize shurtcuts > add new:
