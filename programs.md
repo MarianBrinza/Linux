@@ -365,3 +365,5 @@ name: whatever name you want
 comand: xkill
 shortcut: whatever key combination you want
 ```
+### install samba shares
+sudo apt install samba -y
