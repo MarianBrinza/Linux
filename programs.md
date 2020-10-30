@@ -275,6 +275,19 @@ snap install --classic notepadqq
 ```
 apt-get install git
 ```
+
+### latest `git` version
+- add git PPA (Personal Package Archive) && install git 
+``` bash
+  sudo add-apt-repository ppa:git-core/ppa -y
+  sudo apt-get update
+  sudo apt-get install git
+```
+- if error while running `sudo add-apt-repository` run:
+``` bash
+  sudo apt-get install software-properties-common python-software-properties
+```
+
 ### NVM
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash
