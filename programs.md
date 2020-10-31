@@ -390,7 +390,15 @@ ENABLE_CORRECTION="true"
 - plugins:
   - autosuggest: https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh
   - nice YT video guide: https://www.youtube.com/watch?v=4KBuPCeF9Gc
-  
+  - git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+  - Download zsh-syntax-highlighting by: `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting`
+     - nano ~/.zshrc find plugins=(git)
+     - Append zsh-autosuggestions & zsh-syntax-highlighting to plugins() like this
+     - plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+     - Reopen terminal
+
+
+
   
 ### install wget curl build-essential fonts-powerline
 ``` bash
