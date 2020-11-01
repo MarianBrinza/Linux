@@ -53,6 +53,8 @@ sudo apt install emojione fonts-noto-color-emoji
 - show show the emojy open an gtk app (ubuntu text editor) and press `Ctrl + .`
 - select the emojy you want
 - paste it where you want it to be displayed
+- link to article: https://medium.com/@oorkan/emojifying-your-linux-terminal-9a5c1e8f6b3c
+
 
 ### Install synaptic package manager
 ```
