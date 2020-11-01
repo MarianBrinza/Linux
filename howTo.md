@@ -94,3 +94,5 @@ I have set “Super & +” key to increase volume and “Super & -” key to dec
 
 - YT video: https://www.youtube.com/watch?v=xvrft9ULvho
 - article from ty video: https://christitus.com/ultimate-linux-gaming-guide/
+
+Varmilo VA87M RGBY White LED TKL Dye Sub PBT Mechanical Keyboard - cherry mx silent red switch
