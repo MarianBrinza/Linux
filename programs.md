@@ -48,6 +48,9 @@ sudo apt install ttf-mscorefonts-installer
 ```  
 sudo apt install emojione fonts-noto-color-emoji
 ```
+  4. clone this repo and do the same as above (place them in usr/share/fonts/ and run the command `fc-cache -v -f`): https://github.com/powerline/fonts
+
+
 ### use font in terminal
 - open `bashrc` or `.zshrc` file and paste to your prompt an emojy
 - show show the emojy open an gtk app (ubuntu text editor) and press `Ctrl + .`
