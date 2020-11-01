@@ -24,8 +24,10 @@ $ who
 $ whoami
 ```
 ----
-Change volume with kb shortcut
+### Change volume with kb shortcut
+
 link to article: http://blog.chapagain.com.np/ubuntu-linux-increase-decrease-volume-from-command-line-keyboard-shortcut/
+
 Here are some linux commands (pactl and amixer) to increase and decrease volume. You can also use these commands to set keyboard shortcut to increase and decrease volume.
 
 pactl
@@ -86,3 +88,4 @@ I have set “Super & +” key to increase volume and “Super & -” key to dec
     – Again click ‘Add’ button
     – Write the command: amixer set Master 2%+
     – Type Super and + (plus) key
+----
