@@ -89,3 +89,8 @@ I have set “Super & +” key to increase volume and “Super & -” key to dec
     – Write the command: amixer set Master 2%+
     – Type Super and + (plus) key
 ----
+
+### Games
+
+- YT video: https://www.youtube.com/watch?v=xvrft9ULvho
+- article from ty video: https://christitus.com/ultimate-linux-gaming-guide/
