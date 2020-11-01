@@ -37,6 +37,23 @@ sudo add-apt-repository multiverse
 sudo apt install ttf-mscorefonts-installer
 ```
 
+### install emojy fonts
+- download:  .
+  1. Google Noto Color Emoji: https://www.google.com/get/noto/
+  2. or/and EmojiOne Android: https://github.com/joypixels/emojione-assets/releases
+- install them by copying the filder (extract from archive) to:
+`~/.local/share/fonts/` or/and `/usr/share/fonts/truetype/`
+  3. verify install, run in terminal:
+  `fc-cache -v -f`, for success installation it will print: `fc-cache: succeeded`
+```  
+sudo apt install emojione fonts-noto-color-emoji
+```
+### use font in terminal
+- open `bashrc` or `.zshrc` file and paste to your prompt an emojy
+- show show the emojy open an gtk app (ubuntu text editor) and press `Ctrl + .`
+- select the emojy you want
+- paste it where you want it to be displayed
+
 ### Install synaptic package manager
 ```
 sudo apt-get install synaptic -y
