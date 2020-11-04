@@ -293,7 +293,7 @@ sudo apt-get remove --autoremove notepadqq-gtk
 ```
 - snap:
 ```
-snap install --classic notepadqq
+sudo snap install --classic notepadqq
 ```
 - download & documentation: https://notepadqq.com/wp/download/
 
