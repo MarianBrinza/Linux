@@ -1,7 +1,7 @@
 ### Add repositories
 ```
-sudo add-apt-repository universe
-sudo add-apt-repository multiverse
+sudo add-apt-repository universe -y
+sudo add-apt-repository multiverse -y
 sudo apt update
 ```
 
@@ -18,13 +18,14 @@ flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flath
 
 ### Add snap support
 ```
-sudo apt install snapd
+sudo apt install snapd -y
 ```
 
 ### Add snap store - optional
 ```
 sudo snap install snap-store
 ```
+
 ### Install Software and Updates app (like Ubuntu has)
 - launch/search: software and updates
 ```
