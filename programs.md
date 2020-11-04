@@ -111,11 +111,6 @@ sudo apt install qbittorrent -y
 ### debian package installer - gui
 - Eddy - link: `https://github.com/donadigo/eddy`
 
-### Codecs:
-```
-sudo apt-get install ubuntu-restricted-extras
-```
-
 ### Video players:
 - **vlc:**
 ```
