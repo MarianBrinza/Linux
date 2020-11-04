@@ -99,3 +99,6 @@ Varmilo VA87M RGBY White LED TKL Dye Sub PBT Mechanical Keyboard - cherry mx sil
 
 ### Terminal themes
 https://github.com/Mayccoll/Gogh
+
+### Text to ASCII
+http://patorjk.com/software/taag/#p=display&f=Epic&t=Done
