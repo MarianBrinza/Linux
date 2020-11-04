@@ -33,7 +33,6 @@ sudo apt install software-properties-gtk -y
 
 ### Install microsoft fonts
 ```
-sudo add-apt-repository multiverse
 sudo apt install ttf-mscorefonts-installer
 ```
 
