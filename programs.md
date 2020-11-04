@@ -433,3 +433,13 @@ shortcut: whatever key combination you want
 ```
 ### install samba shares
 sudo apt install samba -y
+
+
+### Install thunar 
+```
+sudo apt-get install thunar -y
+```
+### Install pcmanfm 
+```
+sudo apt-get install -y pcmanfm
+```
