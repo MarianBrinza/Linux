@@ -5,6 +5,11 @@ sudo add-apt-repository multiverse -y
 sudo apt update
 ```
 
+### install wget curl build-essential fonts-powerline
+``` bash
+sudo apt-get install wget curl build-essential libssl-dev fonts-powerline -y
+```
+
 ### Add flatpak support
 - **install:**
 ```
@@ -418,13 +423,6 @@ ENABLE_CORRECTION="true"
      - plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
      - Reopen terminal
 
-
-
-  
-### install wget curl build-essential fonts-powerline
-``` bash
-sudo apt-get install wget curl build-essential libssl-dev fonts-powerline -y
-```
 
 ### XKill shortcut - terminate process
 ```
