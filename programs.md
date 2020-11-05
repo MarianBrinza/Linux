@@ -443,3 +443,13 @@ sudo apt-get install thunar -y
 ```
 sudo apt-get install -y pcmanfm
 ```
+### Install dolphin
+```
+sudo apt-get install -y dolphin
+```
+# Install pantheon
+```
+sudo add-apt-repository ppa:elementary-os/daily
+sudo apt-get update
+sudo apt-get install pantheon-files
+```
