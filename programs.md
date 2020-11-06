@@ -395,15 +395,18 @@ Expected result: 'zsh 5.4.2' or similar
   - requires: `curl/wget && git && zsh`
   - [repo here](https://github.com/ohmyzsh/ohmyzsh)
   - reaload zsh:
-  ```
-   source ~/.zshrc
-   ```
-  - use theme `intheloop`
-  - copy it from here to `~ .oh-my-zsh/custom/themes`
+  - install:
 ``` bash
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 ```
+- reload `zshrc` file
+```
+   source ~/.zshrc
+```
+  - use theme `intheloop`
+  - copy it from here to `~ .oh-my-zsh/custom/themes`
+
 
 ### uninstall oh-my-zsh
 ``` bash
