@@ -105,12 +105,27 @@ sudo apt-get install dconf-cli uuid-runtime
 ```
 - install:
 ```
- bash -c  "$(wget -qO- https://git.io/vQgMr)" 
+ bash -c  "$(wget -qO- https://git.io/vQgMr)"
  ```
  - select themes:
  ```
  type ALL + enter
  ```
+ 
+ - if error `/apps/gnome-terminal/profiles/default profile' not a valid identifier` while installing run:
+ 
+ ```
+ //Reset your profiles:
+$ dconf reset -f /org/gnome/terminal/legacy/profiles:/
+Close your terminal. Re-open the terminal.
+
+Go to Edit ---> Preferences ---> Profiles.
+Create NEW profile called "Default".
+Close the terminal. Re-open the terminal.
+Confirm "Default" is still listed in your profiles.
+If it is, run the Gogh script again.
+```
+
  
 
 
