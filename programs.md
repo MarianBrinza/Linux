@@ -470,3 +470,16 @@ sudo apt install python3-pip -y
 ```
 sudo apt install -y python3-venv
 ```
+
+// like regedit on windows
+###  install dconf-editor
+```
+sudo apt-get install -y dconf-editor
+```
+
+// like regedit on windows
+###  install gconf-editor
+```
+sudo apt-get install -y gconf-editor
+```
+
