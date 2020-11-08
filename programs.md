@@ -483,3 +483,9 @@ sudo apt-get install -y dconf-editor
 sudo apt-get install -y gconf-editor
 ```
 
+### install easystroke -for volume controll with mouse
+```
+sudo apt-get install easystroke -y
+```
+
+
