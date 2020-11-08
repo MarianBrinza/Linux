@@ -145,3 +145,18 @@ echo $PATH
 export PATH="$HOME/personalScripts:$PATH"
 ```
 - where `personalScripts` is my custom folder containing my executables
+
+### Disable sleep
+- check status
+```
+systemctl status sleep.target
+```
+- diable
+```
+sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
+```
+- enable:
+```
+sudo systemctl unmask sleep.target suspend.target hibernate.target hybrid-sleep.target
+```
+
