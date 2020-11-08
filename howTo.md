@@ -159,4 +159,6 @@ sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.ta
 ```
 sudo systemctl unmask sleep.target suspend.target hibernate.target hybrid-sleep.target
 ```
-
+links:
+1. https://www.unixtutorial.org/disable-sleep-on-ubuntu-server/
+2. https://unix.stackexchange.com/questions/25133/ubuntu-server-continuously-goes-to-sleep
