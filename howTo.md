@@ -169,3 +169,4 @@ links:
 1. on `myPc` run: `ssh-keygen -t rsa -b 4096`
 2. accept defaults
 3. on `myPc` run: `ssh-copy-id theServer@serverIpAddress` >> s`sh-copy-id BobUserName@192.168.0.999`
+4. link to video: https://www.youtube.com/watch?v=vpk_1gldOAE
