@@ -487,5 +487,4 @@ sudo apt-get install -y gconf-editor
 ```
 sudo apt-get install easystroke -y
 ```
-
-
+link to article: https://askubuntu.com/questions/117299/adjust-the-volume-using-the-mouse-wheel
