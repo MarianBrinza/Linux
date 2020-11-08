@@ -491,3 +491,13 @@ link to article: https://askubuntu.com/questions/117299/adjust-the-volume-using-
 
 ### Sketchup Make 2017
 https://help.sketchup.com/en/downloading-older-versions
+
+### Install wine
+```
+sudo apt install wine64 -y
+```
+
+### Install playonlinux
+```
+sudo apt install playonlinux -y
+````
