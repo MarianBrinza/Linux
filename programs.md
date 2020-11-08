@@ -459,7 +459,7 @@ sudo apt-get install pantheon-files
 ### Install python
 ```
 sudo apt-get update
-sudo apt-get install python3.8 python3-pip
+sudo apt-get install python3 python3-pip
 ```
 ### Install pip
 ```
