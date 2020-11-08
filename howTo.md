@@ -131,3 +131,17 @@ If it is, run the Gogh script again.
 
 ### Text to ASCII
 http://patorjk.com/software/taag/#p=display&f=Epic&t=Done
+
+
+
+## PATH
+- the path contains a list of all folders that contains exacutable files
+- print `path`
+```
+echo $PATH
+```
+- add folder to `path`
+```
+export PATH="$HOME/personalScripts:$PATH"
+```
+- where `personalScripts` is my custom folder containing my executables
