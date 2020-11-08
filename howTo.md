@@ -162,3 +162,10 @@ sudo systemctl unmask sleep.target suspend.target hibernate.target hybrid-sleep.
 links:
 1. https://www.unixtutorial.org/disable-sleep-on-ubuntu-server/
 2. https://unix.stackexchange.com/questions/25133/ubuntu-server-continuously-goes-to-sleep
+
+### SSH connect
+- we have 2 machines, 1 personal pc (myPc) and 1 the server (theServer)
+- steps:
+1. on `myPc` run: `ssh-keygen -t rsa -b 4096`
+2. accept defaults
+3. on `myPc` run: `ssh-copy-id theServer@serverIpAddress` >> s`sh-copy-id BobUserName@192.168.0.999`
