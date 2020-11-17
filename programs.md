@@ -196,6 +196,10 @@ apt install flameshot
   cd /home/yourUsername/opt/foxitsoftware/foxitreader
   sudo ./maintenancetool.sh
   ```
+ - okular
+ ```
+sudo apt-get install okular -y
+```
 
 ### Beyond Compare
 
