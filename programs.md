@@ -505,3 +505,8 @@ sudo apt install wine64 -y
 ```
 sudo apt install playonlinux -y
 ````
+
+### Install pycharm comunity
+```
+sudo snap install pycharm-community --classic
+```
