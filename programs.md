@@ -196,9 +196,9 @@ apt install flameshot
   cd /home/yourUsername/opt/foxitsoftware/foxitreader
   sudo ./maintenancetool.sh
   ```
- - okular
+ - okular and evince
  ```
-sudo apt-get install okular -y
+sudo apt-get install okular evince -y
 ```
 
 ### Beyond Compare
