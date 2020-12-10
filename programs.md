@@ -460,14 +460,10 @@ sudo add-apt-repository ppa:elementary-os/daily
 sudo apt-get update
 sudo apt-get install pantheon-files
 ```
-### Install python
+### Install python3, python3-pip, python2
 ```
 sudo apt-get update
-sudo apt-get install python3 python3-pip
-```
-### Install pip
-```
-sudo apt install python3-pip -y
+sudo apt-get install python2 python3 python3-pip
 ```
 
 ### Install python virtual environment
