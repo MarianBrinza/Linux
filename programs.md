@@ -352,6 +352,11 @@ nvm use 12.3.4
 nvm current
 ```
 
+### Install Postman and insomnia
+```
+sudo snap install insomnia postman
+```
+
 ## Install and set up zsh as default
 - instructions from here: https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
 
