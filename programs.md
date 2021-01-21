@@ -511,3 +511,8 @@ sudo apt install playonlinux -y
 ```
 sudo snap install pycharm-community --classic
 ```
+
+### Install figma
+```
+sudo snap install figma-linux
+```
