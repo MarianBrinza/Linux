@@ -516,3 +516,9 @@ sudo snap install pycharm-community --classic
 ```
 sudo snap install figma-linux
 ```
+
+### Install discord 
+```
+sudo snap install discord
+```
+
