@@ -8,3 +8,7 @@
 
 ### Fstab - shows mounting points
 - open the file: `sudo nano /etc/fstab`
+
+### blkid - lists block id
+- list block id of the file sd1: `blkid /dev/sda1`
+- list block id of current file (the drive you are on): `blkid`
