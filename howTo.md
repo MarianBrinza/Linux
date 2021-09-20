@@ -180,3 +180,6 @@ sudo chown marian:marian /mnt/D
 ```
 sudo apt-get install -y easystroke
 ```
+Stackoverflow link to post: `https://askubuntu.com/questions/117299/adjust-the-volume-using-the-mouse-wheel`
+![image](https://user-images.githubusercontent.com/31028022/134045629-3fbfd3de-bcb8-4085-8685-da0583875a0c.png)
+
