@@ -183,3 +183,22 @@ sudo apt-get install -y easystroke
 Stackoverflow link to post: `https://askubuntu.com/questions/117299/adjust-the-volume-using-the-mouse-wheel`
 ![image](https://user-images.githubusercontent.com/31028022/134045629-3fbfd3de-bcb8-4085-8685-da0583875a0c.png)
 
+# Disable sleep for pc
+- first use this command to discover current settings:
+```
+$ gsettings get org.gnome.desktop.lockdown disable-lock-screen
+false
+```
+
+- now set it to true using this command:
+```
+gsettings set org.gnome.desktop.lockdown disable-lock-screen 'true'
+```
+
+- if you are unhappy with the new setting you can reverse it using:
+```
+gsettings set org.gnome.desktop.lockdown disable-lock-screen 'false'
+```
+
+- link to SO question: https://askubuntu.com/questions/1048774/disabling-lock-screen-18-04
+![image](https://user-images.githubusercontent.com/31028022/134060051-ecc8ce14-c5c1-4383-ba6d-0ac3ceb62053.png)
