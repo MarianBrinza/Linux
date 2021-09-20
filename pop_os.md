@@ -100,6 +100,13 @@ wallpapers: https://www.wallpaperflare.com/
 ```
 credit to: The_Helios @reddit > link to fix: https://www.reddit.com/r/pop_os/comments/guppug/frustrations_alttab_behavior_isolating_workspaces/
 
+
+### Open explorer with keyboard - Win + E
+```
+> Open System / Preferences / Keyboard shortcuts
+> Scroll down to Desktop/Home folder, click on it, then press Win+E.
+```
+
 ### Slow terminal on sudo commands
 - check if `hostname` is in `hosts` file
 ```
