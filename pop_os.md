@@ -74,7 +74,7 @@ sudo apt-get install -y dolphin
 1. go to: https://extensions.gnome.org/
 2. install `GNOME Shell extensions` - look top page for message to install
 3. search and install: `dash to dock`
-4. search and install: `dash to panel`
+4. search and install: `dash to panel`  => use this one
 5. search and install: `arc menu by andrew.zaech`
     - dependencies: `sudo apt install gnome-shell-extensions gnome-menus gir1.2-gmenu-3.0 -y`
     - link to homepage, scroll down for info & dependencies: https://gitlab.com/arcmenu-team/Arc-Menu
