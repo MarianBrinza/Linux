@@ -175,3 +175,8 @@ links:
 ```
 sudo chown marian:marian /mnt/D
 ```
+
+# easystroke
+```
+sudo apt-get install -y easystroke
+```
