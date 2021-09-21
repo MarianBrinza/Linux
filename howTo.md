@@ -202,3 +202,16 @@ gsettings set org.gnome.desktop.lockdown disable-lock-screen 'false'
 
 - link to SO question: https://askubuntu.com/questions/1048774/disabling-lock-screen-18-04
 ![image](https://user-images.githubusercontent.com/31028022/134060051-ecc8ce14-c5c1-4383-ba6d-0ac3ceb62053.png)
+
+# Nautilus - remove places from sidebar
+```
+$ gsettings set org.gnome.desktop.privacy remember-recent-files false
+```
+- or
+- install dconf-editor:
+```
+sudo apt install dconf-editor
+```
+- Simply open dconf-editor
+- navigate to org->gnome->desktop->privacy 
+- uncheck the remember-recent-files key
