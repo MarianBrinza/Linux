@@ -522,3 +522,10 @@ sudo snap install figma-linux
 sudo snap install discord
 ```
 
+### Vitals - show hardware usage - cpu, ram, video
+- link: `https://github.com/corecoding/Vitals`
+```
+sudo apt install gir1.2-gtop-2.0 lm-sensors
+``` 
+- link to extension: `https://extensions.gnome.org/extension/1460/vitals/`
+- must install both
