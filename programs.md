@@ -533,6 +533,7 @@ sudo apt install gir1.2-gtop-2.0 lm-sensors
 - must install both
 
 ### Folder Colors
+- link to website: https://foldercolor.tuxfamily.org/
 ```
 sudo apt-get install folder-color
 nautilus -q
