@@ -2,6 +2,8 @@
 ```
 sudo add-apt-repository universe -y
 sudo add-apt-repository multiverse -y
+// for folder colors
+sudo add-apt-repository ppa:costales/folder-color -y
 sudo apt update
 ```
 
@@ -529,3 +531,9 @@ sudo apt install gir1.2-gtop-2.0 lm-sensors
 ``` 
 - link to extension: `https://extensions.gnome.org/extension/1460/vitals/`
 - must install both
+
+### Folder Colors
+```
+sudo apt-get install folder-color
+nautilus -q
+```
