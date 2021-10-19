@@ -18,7 +18,7 @@
 sudo dd bs=4M if=path-to-iso-goes-here of=path-to-usb-drive status=progress
 ```
 - check what drive the usb is by running:
-- sudo fdisk -l,
+- `sudo fdisk -l` or `lsblk`,
 - always give the drive path, not the partition, so: `/dev/sdc` not `/dev/sdc1`
 example:
 ```
