@@ -538,3 +538,9 @@ sudo apt install gir1.2-gtop-2.0 lm-sensors
 sudo apt-get install folder-color
 nautilus -q
 ```
+
+### on screen keyboard
+```
+sudo apt-get install onboard
+```
+
