@@ -238,3 +238,7 @@ UUID=6aa17eab-e4de-488d-b37c-b0c6e4815b93  /mnt/d-drive  ext4 defaults 0 2
 
 ```
 ![image](https://user-images.githubusercontent.com/31028022/138554833-a23b736f-809b-49b2-855a-93c027e958fe.png)
+- check if it works with:
+```
+sudo mount -a
+```
