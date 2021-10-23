@@ -215,3 +215,26 @@ sudo apt install dconf-editor
 - Simply open dconf-editor
 - navigate to org->gnome->desktop->privacy 
 - uncheck the remember-recent-files key
+
+
+### automount drive/hdd 
+- find out the `uuid` of the drive
+```
+sudo blkid
+sudo fdisk -l
+```
+- or: open `Disks` app, select your dirive and look for the `uuid`
+- ![image](https://user-images.githubusercontent.com/31028022/138554758-0bb512a2-ddb7-4772-aecc-f5af368675f0.png)
+- make a folder where the new drive will be mounted to:
+```
+sudo mkdir /mnt/d-drive
+```
+- edit `fstab` file
+```
+sudo nano etc/fstab
+example:
+# d-drive - kingstone 250gb ssd
+UUID=6aa17eab-e4de-488d-b37c-b0c6e4815b93  /mnt/d-drive  ext4 defaults 0 2
+
+```
+![image](https://user-images.githubusercontent.com/31028022/138554833-a23b736f-809b-49b2-855a-93c027e958fe.png)
