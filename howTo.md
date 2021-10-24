@@ -242,3 +242,9 @@ UUID=6aa17eab-e4de-488d-b37c-b0c6e4815b93  /mnt/d-drive  ext4 defaults 0 2
 ```
 sudo mount -a
 ```
+
+### Disable Sleep
+![image](https://user-images.githubusercontent.com/31028022/138591049-65c4d922-86d5-4fe6-bd0c-b82389551148.png)
+![image](https://user-images.githubusercontent.com/31028022/138591074-01475fdd-dc2d-4860-9b9c-64d996b2d685.png)
+
+
