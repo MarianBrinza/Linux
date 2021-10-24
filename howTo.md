@@ -203,7 +203,12 @@ gsettings set org.gnome.desktop.lockdown disable-lock-screen 'false'
 - link to SO question: https://askubuntu.com/questions/1048774/disabling-lock-screen-18-04
 ![image](https://user-images.githubusercontent.com/31028022/134060051-ecc8ce14-c5c1-4383-ba6d-0ac3ceb62053.png)
 
-# Nautilus - remove places from sidebar
+# Nautilus - remove places from sidebar3
+
+- comment out the bookmark you don't want from: `~/.config/user-dirs.dirs`
+- open `/etc/xdg/user-dirs.defaults` and comment out the same bookmarks
+- you have to change both files
+
 ```
 $ gsettings set org.gnome.desktop.privacy remember-recent-files false
 ```
