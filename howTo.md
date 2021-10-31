@@ -253,3 +253,9 @@ sudo mount -a
 ![image](https://user-images.githubusercontent.com/31028022/138591074-01475fdd-dc2d-4860-9b9c-64d996b2d685.png)
 
 
+### Run scrips with double click
+1. make the script executable
+![image](https://user-images.githubusercontent.com/31028022/139589318-61c8ae19-11e3-4a1e-bc15-12d33ae8aa87.png)
+
+2. change nautilus settings
+![image](https://user-images.githubusercontent.com/31028022/139589362-9e6c2ea1-c263-44a6-87ec-91f7b3027bf2.png)
