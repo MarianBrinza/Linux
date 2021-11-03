@@ -261,3 +261,15 @@ sudo mount -a
 2. change nautilus settings
 
 ![image](https://user-images.githubusercontent.com/31028022/139589362-9e6c2ea1-c263-44a6-87ec-91f7b3027bf2.png)
+
+### Install ZSH 
+```
+sudo apt install zsh -y
+sudo chsh -s /bin/zsh yourUsernameHere
+```
+
+
+### Install oh-my-zsh
+```
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
