@@ -30,6 +30,7 @@ Link to article: https://www.cyberciti.biz/faq/ubuntu-linux-how-do-i-install-deb
 
 
 ### Install appimage launcher by terminal
+Link: https://launchpad.net/%7Eappimagelauncher-team/+archive/ubuntu/stable
 ``` bash
 sudo add-apt-repository ppa:appimagelauncher-team/stable
 sudo apt-get update
