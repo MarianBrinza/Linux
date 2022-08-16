@@ -17,7 +17,7 @@ Link to article: https://www.cyberciti.biz/faq/ubuntu-linux-how-do-i-install-deb
 
 ### Install appimage launcher
 
-1. download appimage launcher from: `https://github.com/TheAssassin/AppImageLauncher/releases/tag/v2.2.0`
+1. download appimage launcher from: https://github.com/TheAssassin/AppImageLauncher/releases/tag/v2.2.0
 2. download .deb for debian distros and `amd64` for 64 bit pc
 3. install the `.deb` appimage launcher package
 4. goto Home
