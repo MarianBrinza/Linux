@@ -28,6 +28,14 @@ Link to article: https://www.cyberciti.biz/faq/ubuntu-linux-how-do-i-install-deb
 9. search and select `appimage launcher`
 10. select `integrate and run`
 
+
+### Install appimage launcher by terminal
+``` bash
+sudo add-apt-repository ppa:appimagelauncher-team/stable
+sudo apt-get update
+sudo apt-get install appimagelauncher
+```
+
 ### check default shell
 ``` bash
   echo $SHELL      -> default shell
