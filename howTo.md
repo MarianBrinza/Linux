@@ -11,6 +11,23 @@ sudo apt-get install -f # Install dependencies
 
 Link to article: https://www.cyberciti.biz/faq/ubuntu-linux-how-do-i-install-deb-packages/
 
+### Install appimages
+- run appimage:
+`right click the file > Permissions > Run as a program`
+
+### Install appimage launcher
+
+1. download appimage launcher from: `https://github.com/TheAssassin/AppImageLauncher/releases/tag/v2.2.0`
+2. download .deb for debian distros and `amd64` for 64 bit pc
+3. install the `.deb` appimage launcher package
+4. goto Home
+5. create folder Applications
+6. move any appimage files to Applications folder
+7. right click appimage program
+8. open with 
+9. search and select `appimage launcher`
+10. select `integrate and run`
+
 ### check default shell
 ``` bash
   echo $SHELL      -> default shell
