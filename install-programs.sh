@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# INSTALL SCRIPT FOR POP OS
-# Installing basic programs
+## Install SCRIPT FOR POP OS
+## Installing basic programs
 
 # Add flatpak support
 echo " "
@@ -49,7 +49,7 @@ echo "................................"
 echo "   >> DONE "
 echo "................................"
 
-# Install wget curl build-essential fonts-powerline
+## Install wget curl build-essential fonts-powerline
 echo " "
 echo "................................"
 echo "   >> Install wget curl build-essential fonts-powerline"
@@ -60,7 +60,7 @@ echo "   >> DONE "
 echo "................................"
 
 
-# Install 7 zip and support for rar files
+## Install 7 zip and support for rar files
 echo " "
 echo "................................"
 echo "   >>Install 7 zip and support for rar files"
@@ -70,7 +70,7 @@ echo "................................"
 echo "   >> DONE "
 echo "................................"
 
-# Install synaptic package manager
+## Install synaptic package manager
 echo " "
 echo "................................"
 echo "   >> Install synaptic package manager"
@@ -80,7 +80,7 @@ echo "................................"
 echo "   >> DONE "
 echo "................................"
 
-# Install gnome tweaks
+## Install gnome tweaks
 echo " "
 echo "................................"
 echo "   >> Install gnome tweaks"
@@ -90,7 +90,7 @@ echo "................................"
 echo "   >> DONE "
 echo "................................"
 
-# Install pip
+## Install pip
 echo " "
 echo "................................"
 echo "   >> Install python3-pip"
@@ -100,7 +100,7 @@ echo "................................"
 echo "   >> DONE "
 echo "................................"
 
-# Install gnome shell extensions
+## Install gnome shell extensions
 echo " "
 echo "................................"
 echo "   >> Install gnome shell extensions"
@@ -110,7 +110,7 @@ echo "................................"
 echo "   >> DONE "
 echo "................................"
 
-# Install virtual box
+## Install virtual box
 echo " "
 echo "................................"
 echo "   >> Install virtual box"
@@ -120,7 +120,7 @@ echo "................................"
 echo "   >> DONE "
 echo "................................"
 
-# Install dolphin file manager
+## Install dolphin file manager
 #echo " "
 #echo "................................"
 #echo "   >> Install dolphin file manager"
@@ -130,7 +130,7 @@ echo "................................"
 #echo "   >> DONE "
 #echo "................................"
 
-# Install Software and Updates app (like Ubuntu has)
+## Install Software and Updates app (like Ubuntu has)
 echo " "
 echo "................................"
 echo "   >> Install Software and Updates app (like Ubuntu has)"
@@ -140,17 +140,7 @@ echo "................................"
 echo "   >> DONE "
 echo "................................"
 
-# Install synaptic package manager
-echo " "
-echo "................................"
-echo "   >> Install synaptic package manager"
-echo "................................"
-sudo apt-get install synaptic -y
-echo "................................"
-echo "   >> DONE "
-echo "................................"
-
-# Install firewall
+## Install firewall
 echo " "
 echo "................................"
 echo "   >> Install firewall"
@@ -163,7 +153,7 @@ echo "................................"
 #--------------------------------------
 # BROWSERS
 
-# Install Chrmoium
+## Install Chrmoium
 echo " "
 echo "................................"
 echo "   >> Install Chrmoium"
@@ -173,7 +163,7 @@ echo "................................"
 echo "   >> DONE "
 echo "................................"
 
-# Install Firefox
+## Install Firefox
 echo " "
 echo "................................"
 echo "   >> Install Firefox"
@@ -183,7 +173,7 @@ echo "................................"
 echo "   >> DONE "
 echo "................................"
 
-# Install brave
+## Install brave
 echo " "
 echo "................................"
 echo "   >> Install brave"
@@ -193,17 +183,17 @@ echo "................................"
 echo "   >> DONE "
 echo "................................"
 
-# Install epiphany
-echo " "
-echo "................................"
-echo "   >> Install epiphany"
-echo "................................"
-sudo sudo snap install epiphany
-echo "................................"
-echo "   >> DONE "
-echo "................................"
+## Install epiphany
+#echo " "
+#echo "................................"
+#echo "   >> Install epiphany"
+#echo "................................"
+#sudo sudo snap install epiphany
+#echo "................................"
+#echo "   >> DONE "
+#echo "................................"
 
-# Install qbittorrent
+## Install qbittorrent
 echo " "
 echo "................................"
 echo "   >> Install qbittorrent"
@@ -216,7 +206,7 @@ echo "................................"
 #--------------------------------------
 # VIDEO PLAYERS
 
-# Install vlc
+## Install vlc
 echo " "
 echo "................................"
 echo "   >> Install vlc"
@@ -226,7 +216,7 @@ echo "................................"
 echo "   >> DONE "
 echo "................................"
 
-# Install Celluloid
+## Install Celluloid
 echo " "
 echo "................................"
 echo "   >> Install Celluloid"
@@ -236,7 +226,7 @@ echo "................................"
 echo "   >> DONE "
 echo "................................"
 
-# Install totem
+## Install totem
 echo " "
 echo "................................"
 echo "   >> Install totem"
@@ -246,7 +236,7 @@ echo "................................"
 echo "   >> DONE "
 echo "................................"
 
-# Install parole
+## Install parole
 echo " "
 echo "................................"
 echo "   >> Install parole"
@@ -256,7 +246,7 @@ echo "................................"
 echo "   >> DONE "
 echo "................................"
 
-# Install gzip, zip, unzip
+## Install gzip, zip, unzip
 echo " "
 echo "................................"
 echo "   >> Install gzip, zip, unzip"
@@ -266,7 +256,7 @@ echo "................................"
 echo "   >> DONE "
 echo "................................"
 
-# Install image viewer - eog
+## Install image viewer - eog
 echo " "
 echo "................................"
 echo "   >> Install image viewer - eog"
@@ -276,7 +266,7 @@ echo "................................"
 echo "   >> DONE "
 echo "................................"
 
-# Install shutter - screen shot tool
+## Install shutter - screen shot tool
 echo " "
 echo "................................"
 echo "   >> Install shutter - screenshot tool"
@@ -288,7 +278,7 @@ echo "................................"
 echo "   >> DONE "
 echo "................................"
 
-# Install flameshot
+## Install flameshot
 echo " "
 echo "................................"
 echo "   >> Install flameshot - screenshot tool"
@@ -298,7 +288,7 @@ echo "................................"
 echo "   >> DONE "
 echo "................................"
 
-# Install OBS
+## Install OBS
 echo " "
 echo "................................"
 echo "   >> Install OBS"
@@ -311,12 +301,12 @@ echo "................................"
 #--------------------------------------
 # DEVELOPMENT
 
-# Install Sublime Text
+## Install Sublime Text
 echo " "
 echo "................................"
 echo "   >> Install Sublime Text"
 echo "................................"
-# Install the GPG key:
+## Install the GPG key:
 #wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 #Ensure apt is set up to work with https sources:
 #sudo apt-get install apt-transport-https
@@ -331,7 +321,7 @@ echo "................................"
 echo "   >> DONE "
 echo "................................"
 
-# Install VSCode
+## Install VSCode
 echo " "
 echo "................................"
 echo "   >> Install VSCode"
@@ -341,7 +331,7 @@ echo "................................"
 echo "   >> DONE "
 echo "................................"
 
-# Install WebStorm
+## Install WebStorm
 echo " "
 echo "................................"
 echo "   >> Install WebStorm"
@@ -351,7 +341,7 @@ echo "................................"
 echo "   >> DONE "
 echo "................................"
 
-# Install notepadqq
+## Install notepadqq
 echo " "
 echo "................................"
 echo "   >> Install notepadqq"
@@ -362,7 +352,7 @@ echo "   >> DONE "
 echo "................................"
 
 
-# Install figma
+## Install figma
 echo " "
 echo "................................"
 echo "   >> Install figma"
@@ -373,8 +363,7 @@ echo "   >> DONE "
 echo "................................"
 
 
-
-# Install terminator
+## Install terminator
 echo " "
 echo "................................"
 echo "   >> Install terminator"
@@ -384,8 +373,7 @@ echo "................................"
 echo "   >> DONE "
 echo "................................"
 
-
-# Install dconf-editor
+## Install dconf-editor
 echo " "
 echo "................................"
 echo "   >> Install dconf-editor"
@@ -395,7 +383,7 @@ echo "................................"
 echo "   >> DONE "
 echo "................................"
 
-# Install zsh
+## Install zsh
 echo " "
 echo "................................"
 echo "   >> Install zsh"
@@ -405,8 +393,7 @@ echo "................................"
 echo "   >> DONE "
 echo "................................"
 
-
-# Install oh-my-zsh
+## Install oh-my-zsh
 echo " "
 echo "................................"
 echo "   >> Install oh-my-zsh"
@@ -417,15 +404,14 @@ echo "   >> DONE "
 echo "................................"
 
 
-
-# Install NVM
+## Install NVM
 echo " "
 echo "................................"
 echo "   >> Install NVM"
 echo "................................"
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash
 
-# Install Node --lts
+## Install Node --lts
 nvm install --lts
 
 # Use --lts
